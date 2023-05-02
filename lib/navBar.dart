@@ -1,4 +1,5 @@
 import 'package:ddnos/home.dart';
+import 'package:ddnos/setting.dart';
 import 'package:ddnos/suggest.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class _NavBarState extends State<NavBar> {
   final List<Widget> _children = <Widget>[
     const HomeWidget(),
     const SuggestedActions(),
-    Container(),
+    const Settings()
   ];
 
   void onTabTapped(final int index) {
